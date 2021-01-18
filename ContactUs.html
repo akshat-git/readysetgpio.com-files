@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Ready, Set, GPIO! | Contact Us</title>
+	<link rel="stylesheet" href="ContactUs.css">
+	
+</head>
+<body>
+	<br>
+	<section> 
+		<nav>
+			<ul>
+				<li id = "h"><a href = "website2.html"><img alt="Home" src="homepic2.jpg"></a>
+				<li><a href = "Activities.html">Activities</a>
+				<li id="CU"><a href = "ContactUs.html">Contact Us</a>
+				
+			</ul>
+		</nav>
+	</section>
+	<br>
+	<form  action="https://formspree.io/akshatdotgarg@gmail.com" method="post">
+		<strong>
+			<fieldset>
+				<legend>Your Info</legend>
+					<br>
+					<label>
+						<span>E-mail: </span>
+						<input type=email name="EmailInput" placeholder="Type in your e-mail" size="30" required>
+					</label>
+					<br>
+					<br>
+					<label>
+						<span>Phone #:</span>
+						<input type=tel name="TelephoneInput" size="11" required>
+					</label>
+					<br>
+					<br>
+					<label>
+						<span>How do you want to be contacted?</span>
+						<input type=radio name="Phone" value="Phone"> Phone
+						<input type=radio name="Email" value="Email"> Email
+					</label>
+					<br>
+					<br>
+					<label>
+						<textarea cols="40" rows="5" name="Question" placeholder="Type in any question you may have"></textarea>
+					</label>
+					<br>
+					<label>
+						<input type="submit" name="SubmitButton" value="Submit" id="Button" style = "align: center; padding: 1vw; border: 2px solid #000000; border-radius: 10px; background-color: #00FFE6; cursor: pointer;">
+						<input type="reset" name="ResetButton" value="Reset all fields" id="Button" style = "align: center; padding: 1vw; border: 2px solid #000000; border-radius: 10px; background-color: #00FFE6; cursor: pointer;">
+					</label>
+			</fieldset>
+		</strong>
+	</form>
+</body>

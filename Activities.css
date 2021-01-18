@@ -1,0 +1,108 @@
+header {
+	text-align: center;
+	border:5px solid #000000;
+	background-color: #00FFE6;
+	padding:10px;
+	border-radius:50px;
+	width:70vw;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: Cursive;
+	overflow:hidden;
+	box-shadow: 20px 20px 30px 15px #333333;
+}
+
+hgroup {
+	font-size:2em;
+	color:#2000FF;
+	float:bottom;
+	width:70vw;
+	margin:auto;
+}
+body {
+	font-size: 1.2em;
+	background-image: url("download.jpg"); 
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+section{
+	width: 100vw;
+	float: top;
+}
+nav {
+	font-family: Cursive;
+	border:5px solid #000000;
+	border-radius:50px;
+	padding: 10px;
+	background-color: #00FFE6;
+	margin-left:15vw;
+	margin-right:15vw;
+	overflow:hidden;
+	font-size: 1.25vw;
+	line-height: calc(1em + (3 - 1.5) * ((100vw - 350px)/(2780 - 350)));
+
+}
+a:link {
+	text-decoration:none;
+	color:#14abff;
+}
+a:hover {
+	color:#00C6AA;
+}
+
+nav:hover {
+	box-shadow: 5px 5px 10px 5px #383838;
+	
+}
+
+nav ul {
+	list-style-type:none;
+}
+nav ul li {
+	margin-left:7vw;
+	margin-right:7vw;
+	display: inline;
+
+}
+nav img {
+	width: 7vw;
+	max-width: 35px;
+	max-height: 35px;
+	height: 7vw; 
+	z-index: 10;
+}
+#Ac {
+	text-decoration:underline;
+}
+#h:hover {
+	cursor: pointer;
+}
+section h3 {
+	font-size: 4vw;
+	font-family:Cursive;
+	text-decoration:underline;
+	color:#2000FF;
+	text-align: left;
+}
+#left {
+	padding:0.2vw;
+	width:30vw;
+	float:;
+	overflow:hidden;
+}
+#right {
+	padding:0.2vw;
+	width:34vw;
+	overflow:hidden;
+}
+#pics {
+	border-radius: 2vw;
+	padding: 3vw;
+	background-color: #00FFE6;
+	margin-left: 12.5vw;
+	margin-right: 12.5vw;
+	overflow: hidden; 
+	width: 75%;
+	
+}
