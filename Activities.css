@@ -97,6 +97,7 @@ section h3 {
 	overflow:hidden;
 }
 #pics {
+	text-align:center;
 	border-radius: 2vw;
 	padding: 3vw;
 	background-color: #00FFE6;

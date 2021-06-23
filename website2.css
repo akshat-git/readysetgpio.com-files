@@ -51,7 +51,7 @@ nav {
 	font-size: 1.5vw;
 	line-height: calc(1em * ((100vw - 350px)/(2780 - 350)));
 }
-#home {
+#h{
 	width: 2vw;
 	height: 2vw;
 }
@@ -82,13 +82,33 @@ nav img {
 	height: 2vw;
 	z-index: 10;
 }
+
 #h:hover {
 	cursor: pointer;
 }
+
 input[type=submit] {
     border-width:5px solid #000000;
 	color:#000000;
 	text-decoration:none;
 	border-radius:10px;
 	font-size:1.5vw;
+}
+
+#form{
+	width:50%!important;
+	height:200vw!important;
+    margin-left: 20vw;
+    margin-right: 30vw;
+	overflow-y:hidden!important;
+	padding:5%
+}
+#sheet{
+	width:50vw!important;
+	height:80vw!important;
+    margin-left: 20vw;
+    margin-right: 30vw;
+	overflow-y:hidden!important;
+	padding:0%;
+	border:none
 }
